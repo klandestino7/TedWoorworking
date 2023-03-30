@@ -47,13 +47,14 @@ export default function Home() {
                 <ProjectsTypes />
                 
                 <ButtonSection />
-                <Headline
+
+                {/* <Headline
                     headline={`Listen To What Our Satisfied Customers Are Saying:`}
                     color={"rgb(32,92,118)"}
                     fontColor={"white"}
                 />
-                <Testimonials />
-                <ButtonSection />
+                <Testimonials /> */}
+                {/* <ButtonSection /> */}
                 {/* <Offer /> */}
             </main> 
         </>
