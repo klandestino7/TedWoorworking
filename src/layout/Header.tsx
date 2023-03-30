@@ -85,11 +85,11 @@ export default function WithSubnavigation() {
                     margin="20px"
                 
                 >
-                    <Heading as='h3' size='lg' color="black" margin="5px">
+                    <Heading as='h3' size={{base: 'md', md: 'lg'}} color="black" margin="5px">
                         Announcing The World's <Text as='u'>Largest Collection</Text> of
                     </Heading>
 
-                    <Heading as='h2' size='3xl' noOfLines={1} color="rgb(238,71,0)" margin="5px">
+                    <Heading as='h2' size={{base: '2xl', md: '3xl'}} color="rgb(238,71,0)" margin="5px">
                         16,000 Woodworking Plans
                     </Heading>
                 </Box>
