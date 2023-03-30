@@ -12,25 +12,34 @@ const ButtonSection = () => {
             w="100%"
         >
             <Box
-                maxW="930px"
+                maxW="lg"
                 display="flex"
                 flexDirection="column"
                 color={"rgb(51,51,51)"}
-                justifyContent="space-around"
+                justifyContent="center"
                 alignItems="center"
+                
             >
                 <Link
                     href={"https://hop.clickbank.net/?affiliate=antoniapao&vendor=tedsplans&pid=orderp"}
                     target="_blank"
+                    display="flex"
+                    justifyContent="center"
+                    alignItems="center"
                 >
                     <Button
                         px={8}
-                        size="lg"
-                        minW="300px"
+                        maxW="90vw"
+
                         minH="80px"
                         backgroundColor={"rgb(247,153,0)"}
+
                         backgroundImage={"linear-gradient(rgb(247,153,0) 0%,rgb(245,119,0) 100%)"}
-                        fontSize="3xl"
+                        fontSize={{base: 'xl', md: '3xl'}}
+
+                        flexWrap="wrap"
+                        whiteSpace={"normal"}
+                        
                         color={'white'}
                         rounded={'md'}
                         _hover={{

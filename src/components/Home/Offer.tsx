@@ -35,23 +35,23 @@ const Offer = () => {
                     />
                 </Box>
 
-                <ul className="list1">
+                {/* <ul className="list1">
                     <li><strong>Instant Access To All 16,000 Projects</strong> with step-by-step details, plans, cutting &amp; materials list and more... <span>($297 Value)</span></li>
                     <li><strong>Lifetime FREE Monthly Plans</strong> - no recurring fees or other charges <span>($39 Per Month Value)</span></li>
                     <li>Option to have everything on 2 DVDs shipped to your mailbox</li>
                     <li><strong>100% Risk-Free Money Back Guarantee</strong></li>
-                </ul>
+                </ul> */}
 
                 <Heading padding="20px" as='h4' size='md' textAlign="center">
                     <Text as="i"> Plus These Amazing Bonuses:</Text>
                 </Heading>
 
-                <ul className="list2">
+                {/* <ul className="list2">
                     <li>DWG &amp; CAD Plan Viewer <strong>($47 Value)</strong></li>
                     <li>150 Premium Woodworking Videos <strong>($77 Value)</strong></li>
                     <li>How To Start A Woodworking Business <strong>($27 Value)</strong></li>
                     <li>Complete Woodworking Guides <strong>($39 Value)</strong></li>
-                </ul>
+                </ul> */}
 
                 <Heading pt={"20px"} pb="10px"  as='h3' size='2xl' color="red" textAlign="center">
                     <Text as="u"> Total Value: $487 + $39/m </Text>

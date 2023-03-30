@@ -13,14 +13,12 @@ import {
     useColorModeValue,
 } from '@chakra-ui/react';
 
-
-
 export default function ExplainProduct() {
     return (
         <Container maxW={'930px'} py={12}>
             <Grid
-                templateRows='repeat(1, 1fr)'
-                templateColumns='1fr 2fr'
+                templateRows={{base: '2fr', md: '1fr'}}
+                templateColumns={{base: '1fr', md: '1fr 3fr'}}
                 gap={8}
             >
                 <Flex
@@ -38,7 +36,6 @@ export default function ExplainProduct() {
                 </Flex>
 
                 <Stack spacing={6}>
-                    
 
                     <Text fontSize='xl'>
                         <p><Text as='b'>Here's the BIG problem:</Text> Most plans and woodworking magazines are <Text as='b'> <Text as="u">complete garbage.</Text></Text></p>

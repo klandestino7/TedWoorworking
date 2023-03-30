@@ -96,6 +96,7 @@ export default function WithSubnavigation() {
 
                 <Box
                     maxW={"800px"}
+                    width="90vw"
                 >
                     <Image
                         src="./images/img-1.jpg"

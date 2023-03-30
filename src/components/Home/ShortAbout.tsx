@@ -19,8 +19,8 @@ export default function ShortAbout() {
     return (
         <Container maxW={'930px'} py={12}>
             <Grid
-                templateRows='repeat(1, 1fr)'
-                templateColumns='1fr 3fr'
+                templateRows={{base: '2fr', md: '1fr'}}
+                templateColumns={{base: '1fr', md: '1fr 3fr'}}
                 gap={4}
             >
                 <Flex
