@@ -21,7 +21,7 @@ const ButtonSection = () => {
                 
             >
                 <Link
-                    href={"https://hop.clickbank.net/?affiliate=antoniapao&vendor=tedsplans&pid=orderp"}
+                    href={"https://bit.ly/3KiMnJM"}
                     target="_blank"
                     display="flex"
                     justifyContent="center"
