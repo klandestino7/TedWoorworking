@@ -21,7 +21,7 @@ const ButtonSection = () => {
                 
             >
                 <Link
-                    href={"https://bit.ly/3KiMnJM"}
+                    href={"https://bit.ly/42YJtB2"}
                     target="_blank"
                     display="flex"
                     justifyContent="center"
