@@ -32,16 +32,16 @@ export default function Footer() {
             >
                 <Text> Copyright © 2023 Bidweek.shop. All Rights Reserved.</Text>
                 <Stack direction={'row'} spacing={6}>
-                    <Link href={"https://bidweek.shop/termos-e-condicoes/"}>
+                    <Link href={""}>
                         Terms & Conditions
                     </Link>
-                    <Link href={"https://bidweek.shop/politica-de-privacidade/"}>
+                    <Link href={""}>
                         Privacy Policy
                     </Link>
-                    <Link href={"https://bidweek.shop/termos-e-condicoes/"}>
+                    <Link href={""}>
                         Cookie Policy
                     </Link>
-                    <Link href={"https://bidweek.shop/termos-e-condicoes/"}>
+                    <Link href={""}>
                         Disclaimer
                     </Link>
                 </Stack>
