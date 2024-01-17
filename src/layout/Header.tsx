@@ -2,59 +2,13 @@ import {
     Box,
     Flex,
     Text,
-    IconButton,
-    Button,
-    Stack,
-    Collapse,
-    Icon,
-    Link,
-    Popover,
-    PopoverTrigger,
-    PopoverContent,
     useColorModeValue,
-    useBreakpointValue,
-    useDisclosure,
     AspectRatio,
     Image,
     Heading
 } from '@chakra-ui/react';
-import {
-    HamburgerIcon,
-    CloseIcon,
-    ChevronDownIcon,
-    ChevronRightIcon,
-} from '@chakra-ui/icons';
-import SocialButton from '../components/SocialButton';
-import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
-import { useRouter } from 'next/router';
-import { useEffect, useState } from 'react';
-
-
-const imageFromRouter : any =
-{
-    "/conectar": { title: "Conectar", sub: "Para ficar por dentro de todas as informações sobre os nossos encontros clique em QUERO PARTICIPAR e entre para o grupo privado de WhatsApp de interesse.", image : "./images/banner/conectar.jpg"},
-    "/sobre": { title: "Sobre nós", sub:"", image : "./images/banner/sobre.jpg"},
-    "/contribuir": { title: "Contribuir", sub:"", image : "./images/banner/contribuir.jpg"}
-}
-
 
 export default function WithSubnavigation() {
-    const { isOpen, onToggle } = useDisclosure();
-    const Router  = useRouter();
-
-    const [ title, setTitle ] = useState("Tabernáculo");
-    const [ subTitle, setSubTitle ] = useState("");
-    const [ banner, setBanner ] = useState("./images/banner/conectar.jpg"); 
-
-    useEffect(() =>
-    {
-        if (imageFromRouter[Router.asPath])
-        {
-            setTitle(imageFromRouter[Router.asPath].title);
-            setBanner(imageFromRouter[Router.asPath].image);
-            setSubTitle(imageFromRouter[Router.asPath].sub);
-        }
-    }, [Router.asPath]);
 
     return (
         <Box>
